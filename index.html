@@ -136,15 +136,33 @@
   .badge b { color: var(--ink); font-weight: 500; }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
 
-  /* ——— 主题切换 ——— */
+  /* ——— 主题切换：胶囊滑块 ——— */
   .theme-toggle {
     position: fixed; top: 18px; right: 20px; z-index: 20;
-    font-family: var(--mono); font-size: 12px; color: var(--ink-dim);
-    border: 1px solid var(--line-strong); border-radius: 999px; padding: 7px 14px;
-    background: var(--badge-bg); backdrop-filter: blur(6px); cursor: pointer;
-    display: inline-flex; align-items: center; gap: 7px; transition: color 0.2s, border-color 0.2s;
+    width: 58px; height: 31px; border-radius: 999px; padding: 0;
+    border: 1px solid var(--line-strong);
+    background: var(--badge-bg); backdrop-filter: blur(6px);
+    cursor: pointer; transition: border-color 0.2s;
   }
-  .theme-toggle:hover { color: var(--ink); border-color: var(--accent); }
+  .theme-toggle:hover { border-color: var(--accent); }
+  .theme-toggle .ic {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    font-size: 12px; line-height: 1; color: var(--ink-faint);
+    transition: color 0.25s; pointer-events: none;
+  }
+  .theme-toggle .sun { left: 8px; }
+  .theme-toggle .moon { right: 8px; }
+  .theme-toggle .knob {
+    position: absolute; top: 3px; left: 3px;
+    width: 23px; height: 23px; border-radius: 50%;
+    background: linear-gradient(160deg, var(--panel-2), var(--panel));
+    border: 1px solid var(--line-strong);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    transition: transform 0.28s cubic-bezier(0.3, 1.4, 0.5, 1);
+  }
+  html[data-theme='dark'] .theme-toggle .knob { transform: translateX(27px); }
+  html[data-theme='light'] .theme-toggle .sun { color: #d97706; }
+  html[data-theme='dark'] .theme-toggle .moon { color: var(--usd); }
   /* 主题切换时的平滑过渡 */
   body, .board, .badge, .stat, .search, .chip, thead th, tbody td, td.vendor-cell, footer a {
     transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
@@ -264,7 +282,7 @@
 </head>
 <body>
 <div class="wrap">
-  <button id="themeToggle" class="theme-toggle" aria-label="切换日间 / 夜间模式"></button>
+  <button id="themeToggle" class="theme-toggle" role="switch" aria-checked="false" aria-label="切换日间 / 夜间模式"><span class="ic sun">☀</span><span class="ic moon">☾</span><span class="knob"></span></button>
   <header class="rise">
     <div class="overline">LLM API Price Index</div>
     <h1>模型价格行情</h1>
@@ -487,11 +505,10 @@ function bindEvents() {
     }));
 }
 
-// ——— 主题切换 ———
+// ——— 主题切换（胶囊滑块，状态由 html[data-theme] 驱动） ———
 const tgl = document.getElementById('themeToggle');
 function syncTgl() {
-  const light = document.documentElement.dataset.theme === 'light';
-  tgl.innerHTML = light ? '☾&nbsp;夜间' : '☀&nbsp;日间';
+  tgl.setAttribute('aria-checked', document.documentElement.dataset.theme === 'dark' ? 'true' : 'false');
 }
 tgl.addEventListener('click', () => {
   const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
