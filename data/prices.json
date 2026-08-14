@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T03:17:05.629Z",
+  "updatedAt": "2026-08-14T03:53:37.833Z",
   "fx": {
     "rate": 6.757039,
     "updatedAt": "Fri, 14 Aug 2026 00:02:32 +0000"
@@ -113,6 +113,30 @@
           "cachedInput": null,
           "input": 12,
           "output": 36
+        }
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "region": "cn",
+      "homepage": "https://platform.minimaxi.com/docs/guides/pricing",
+      "models": [
+        {
+          "cachedInput": 0.41,
+          "input": 2.03,
+          "output": 8.11,
+          "name": "MiniMax M3",
+          "kind": "usd",
+          "sourceKey": "minimax/MiniMax-M3"
+        },
+        {
+          "cachedInput": 0.2,
+          "input": 2.03,
+          "output": 8.11,
+          "name": "MiniMax M2.5",
+          "kind": "usd",
+          "sourceKey": "minimax/MiniMax-M2.5"
         }
       ]
     },

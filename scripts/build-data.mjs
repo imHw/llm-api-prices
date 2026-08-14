@@ -44,6 +44,16 @@ const LITELLM_MODELS = [
     keyCandidates: ['claude-opus-5', 'claude-opus-4-7', 'anthropic.claude-opus-4-7', 'claude-opus-4-6'],
   },
   {
+    vendor: { id: 'minimax', name: 'MiniMax', region: 'cn', homepage: 'https://platform.minimaxi.com/docs/guides/pricing' },
+    name: 'MiniMax M3',
+    keyCandidates: ['minimax/MiniMax-M3'],
+  },
+  {
+    vendor: { id: 'minimax', name: 'MiniMax', region: 'cn', homepage: 'https://platform.minimaxi.com/docs/guides/pricing' },
+    name: 'MiniMax M2.5',
+    keyCandidates: ['minimax/MiniMax-M2.5'],
+  },
+  {
     vendor: { id: 'google', name: 'Google', region: 'us', homepage: 'https://ai.google.dev/gemini-api/docs/pricing' },
     name: 'Gemini 3.1 Pro',
     keyCandidates: ['gemini-3.1-pro-preview', 'gemini-3-pro-preview', 'gemini-2.5-pro'],
@@ -154,7 +164,7 @@ async function main() {
   }));
 
   // 展示顺序：国内厂商在前（人民币原价），海外在后
-  const cnOrder = ['deepseek', 'zhipu', 'moonshot', 'alibaba'];
+  const cnOrder = ['deepseek', 'zhipu', 'moonshot', 'alibaba', 'minimax'];
   const usOrder = ['xai', 'openai', 'google', 'anthropic'];
   const byId = new Map([...overrideVendors, ...autoVendors.values()].map((v) => [v.id, v]));
   const vendors = [...cnOrder, ...usOrder].map((id) => byId.get(id)).filter(Boolean);

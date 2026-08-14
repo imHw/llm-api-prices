@@ -6,7 +6,7 @@
 
 | 来源 | 覆盖范围 | 更新方式 |
 | --- | --- | --- |
-| [litellm 社区价格库](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) | OpenAI / Anthropic / Google 等美元计价厂商 | GitHub Actions 每日自动拉取 |
+| [litellm 社区价格库](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) | OpenAI / Anthropic / Google / MiniMax 等官方美元计价 | GitHub Actions 每日自动拉取 |
 | [open.er-api.com](https://open.er-api.com) | USD → CNY 汇率 | 每日自动拉取 |
 | `data/overrides.json` | DeepSeek 峰谷定价、智谱 / 月之暗面 / 阿里通义人民币原价、xAI | 手动核对维护（首次录入于 2026-08-14） |
 
