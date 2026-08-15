@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-14T06:59:58.489Z",
+  "updatedAt": "2026-08-15T01:54:50.779Z",
   "fx": {
-    "rate": 6.757039,
-    "updatedAt": "Fri, 14 Aug 2026 00:02:32 +0000"
+    "rate": 6.755647,
+    "updatedAt": "Sat, 15 Aug 2026 00:02:31 +0000"
   },
   "unit": "CNY / 1M tokens",
   "sources": [
@@ -151,14 +151,14 @@
           "kind": "usd",
           "cachedInput": 3.38,
           "input": 13.51,
-          "output": 40.54
+          "output": 40.53
         },
         {
           "name": "Grok 4.6 · ≥200k 输入",
           "kind": "usd",
           "cachedInput": 6.76,
-          "input": 27.03,
-          "output": 81.08
+          "input": 27.02,
+          "output": 81.07
         }
       ]
     },
@@ -170,8 +170,8 @@
       "models": [
         {
           "cachedInput": 3.38,
-          "input": 33.79,
-          "output": 202.71,
+          "input": 33.78,
+          "output": 202.67,
           "name": "GPT-5.6 Sol · ≤272k 输入",
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
@@ -179,8 +179,8 @@
         {
           "name": "GPT-5.6 Sol · >272k 输入",
           "cachedInput": 6.76,
-          "input": 67.57,
-          "output": 304.07,
+          "input": 67.56,
+          "output": 304,
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
         },
@@ -211,7 +211,7 @@
         {
           "cachedInput": 1.35,
           "input": 13.51,
-          "output": 81.08,
+          "output": 81.07,
           "name": "Gemini 3.1 Pro · ≤200k 输入",
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
@@ -219,15 +219,15 @@
         {
           "name": "Gemini 3.1 Pro · >200k 输入",
           "cachedInput": 2.7,
-          "input": 27.03,
-          "output": 121.63,
+          "input": 27.02,
+          "output": 121.6,
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
         },
         {
           "cachedInput": 0.17,
           "input": 1.69,
-          "output": 10.14,
+          "output": 10.13,
           "name": "Gemini 3.1 Flash-Lite",
           "kind": "usd",
           "sourceKey": "gemini-3.1-flash-lite"
@@ -242,16 +242,16 @@
       "models": [
         {
           "cachedInput": 6.76,
-          "input": 67.57,
-          "output": 337.85,
+          "input": 67.56,
+          "output": 337.78,
           "name": "Claude Fable 5",
           "kind": "usd",
           "sourceKey": "claude-fable-5"
         },
         {
           "cachedInput": 3.38,
-          "input": 33.79,
-          "output": 168.93,
+          "input": 33.78,
+          "output": 168.89,
           "name": "Claude Opus 5",
           "kind": "usd",
           "sourceKey": "claude-opus-5"
