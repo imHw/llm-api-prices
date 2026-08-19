@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-18T01:56:29.386Z",
+  "updatedAt": "2026-08-19T01:58:12.975Z",
   "fx": {
-    "rate": 6.753148,
-    "updatedAt": "Tue, 18 Aug 2026 00:02:31 +0000"
+    "rate": 6.756911,
+    "updatedAt": "Wed, 19 Aug 2026 00:02:31 +0000"
   },
   "unit": "CNY / 1M tokens",
   "sources": [
@@ -125,7 +125,7 @@
         {
           "cachedInput": 0.41,
           "input": 2.03,
-          "output": 8.1,
+          "output": 8.11,
           "name": "MiniMax M3",
           "kind": "usd",
           "sourceKey": "minimax/MiniMax-M3"
@@ -133,7 +133,7 @@
         {
           "cachedInput": 0.2,
           "input": 2.03,
-          "output": 8.1,
+          "output": 8.11,
           "name": "MiniMax M2.5",
           "kind": "usd",
           "sourceKey": "minimax/MiniMax-M2.5"
@@ -151,14 +151,14 @@
           "kind": "usd",
           "cachedInput": 3.38,
           "input": 13.51,
-          "output": 40.52
+          "output": 40.54
         },
         {
           "name": "Grok 4.6 · ≥200k 输入",
           "kind": "usd",
-          "cachedInput": 6.75,
-          "input": 27.01,
-          "output": 81.04
+          "cachedInput": 6.76,
+          "input": 27.03,
+          "output": 81.08
         }
       ]
     },
@@ -170,24 +170,24 @@
       "models": [
         {
           "cachedInput": 3.38,
-          "input": 33.77,
-          "output": 202.59,
+          "input": 33.78,
+          "output": 202.71,
           "name": "GPT-5.6 Sol · ≤272k 输入",
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
         },
         {
           "name": "GPT-5.6 Sol · >272k 输入",
-          "cachedInput": 6.75,
-          "input": 67.53,
-          "output": 303.89,
+          "cachedInput": 6.76,
+          "input": 67.57,
+          "output": 304.06,
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
         },
         {
           "cachedInput": 0.14,
           "input": 1.35,
-          "output": 8.1,
+          "output": 8.11,
           "name": "GPT-5.6 Luna · ≤272k 输入",
           "kind": "usd",
           "sourceKey": "gpt-5.6-luna"
@@ -211,7 +211,7 @@
         {
           "cachedInput": 1.35,
           "input": 13.51,
-          "output": 81.04,
+          "output": 81.08,
           "name": "Gemini 3.1 Pro · ≤200k 输入",
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
@@ -219,15 +219,15 @@
         {
           "name": "Gemini 3.1 Pro · >200k 输入",
           "cachedInput": 2.7,
-          "input": 27.01,
-          "output": 121.56,
+          "input": 27.03,
+          "output": 121.62,
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
         },
         {
           "cachedInput": 0.17,
           "input": 1.69,
-          "output": 10.13,
+          "output": 10.14,
           "name": "Gemini 3.1 Flash-Lite",
           "kind": "usd",
           "sourceKey": "gemini-3.1-flash-lite"
@@ -241,17 +241,17 @@
       "homepage": "https://docs.anthropic.com/en/docs/about-claude/pricing",
       "models": [
         {
-          "cachedInput": 6.75,
-          "input": 67.53,
-          "output": 337.66,
+          "cachedInput": 6.76,
+          "input": 67.57,
+          "output": 337.85,
           "name": "Claude Fable 5",
           "kind": "usd",
           "sourceKey": "claude-fable-5"
         },
         {
           "cachedInput": 3.38,
-          "input": 33.77,
-          "output": 168.83,
+          "input": 33.78,
+          "output": 168.92,
           "name": "Claude Opus 5",
           "kind": "usd",
           "sourceKey": "claude-opus-5"
