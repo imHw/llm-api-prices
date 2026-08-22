@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-21T02:04:56.248Z",
+  "updatedAt": "2026-08-22T01:56:15.269Z",
   "fx": {
-    "rate": 6.739393,
-    "updatedAt": "Fri, 21 Aug 2026 00:02:31 +0000"
+    "rate": 6.737851,
+    "updatedAt": "Sat, 22 Aug 2026 00:02:31 +0000"
   },
   "unit": "CNY / 1M tokens",
   "sources": [
@@ -151,14 +151,14 @@
           "kind": "usd",
           "cachedInput": 3.37,
           "input": 13.48,
-          "output": 40.44
+          "output": 40.43
         },
         {
           "name": "Grok 4.6 · ≥200k 输入",
           "kind": "usd",
           "cachedInput": 6.74,
-          "input": 26.96,
-          "output": 80.87
+          "input": 26.95,
+          "output": 80.85
         }
       ]
     },
@@ -170,8 +170,8 @@
       "models": [
         {
           "cachedInput": 3.37,
-          "input": 33.7,
-          "output": 202.18,
+          "input": 33.69,
+          "output": 202.14,
           "name": "GPT-5.6 Sol · ≤272k 输入",
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
@@ -179,8 +179,8 @@
         {
           "name": "GPT-5.6 Sol · >272k 输入",
           "cachedInput": 6.74,
-          "input": 67.39,
-          "output": 303.27,
+          "input": 67.38,
+          "output": 303.2,
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
         },
@@ -211,7 +211,7 @@
         {
           "cachedInput": 1.35,
           "input": 13.48,
-          "output": 80.87,
+          "output": 80.85,
           "name": "Gemini 3.1 Pro · ≤200k 输入",
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
@@ -219,8 +219,8 @@
         {
           "name": "Gemini 3.1 Pro · >200k 输入",
           "cachedInput": 2.7,
-          "input": 26.96,
-          "output": 121.31,
+          "input": 26.95,
+          "output": 121.28,
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
         },
@@ -242,16 +242,16 @@
       "models": [
         {
           "cachedInput": 6.74,
-          "input": 67.39,
-          "output": 336.97,
+          "input": 67.38,
+          "output": 336.89,
           "name": "Claude Fable 5",
           "kind": "usd",
           "sourceKey": "claude-fable-5"
         },
         {
           "cachedInput": 3.37,
-          "input": 33.7,
-          "output": 168.48,
+          "input": 33.69,
+          "output": 168.45,
           "name": "Claude Opus 5",
           "kind": "usd",
           "sourceKey": "claude-opus-5"
