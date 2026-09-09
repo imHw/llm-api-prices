@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-08T04:55:16.428Z",
+  "updatedAt": "2026-09-09T04:56:03.047Z",
   "fx": {
-    "rate": 6.728426,
-    "updatedAt": "Tue, 08 Sep 2026 00:02:31 +0000"
+    "rate": 6.72825,
+    "updatedAt": "Wed, 09 Sep 2026 00:02:31 +0000"
   },
   "unit": "CNY / 1M tokens",
   "sources": [
@@ -243,7 +243,7 @@
         {
           "cachedInput": 6.73,
           "input": 67.28,
-          "output": 336.42,
+          "output": 336.41,
           "name": "Claude Fable 5",
           "kind": "usd",
           "sourceKey": "claude-fable-5"
