@@ -6,9 +6,10 @@
 
 | 来源 | 覆盖范围 | 更新方式 |
 | --- | --- | --- |
-| [litellm 社区价格库](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) | OpenAI / Anthropic / Google / MiniMax 等官方美元计价 | GitHub Actions 每日自动拉取 |
-| [open.er-api.com](https://open.er-api.com) | USD → CNY 汇率 | 每日自动拉取 |
-| `data/overrides.json` | DeepSeek 峰谷定价、智谱 / 月之暗面 / 阿里通义人民币原价、xAI | 手动核对维护（首次录入于 2026-08-14） |
+| [litellm 社区价格库](https://github.com/BerriAI/litellm/blob/main/model_prices_and_context_window.json) | 全网海量模型实时官方计价（含 CDN 镜像容灾回退） | GitHub Actions 每日自动拉取 |
+| [OpenRouter API](https://openrouter.ai/models) | 实时动态补充最新旗舰模型、多阶梯计费与中外新发布模型 | 自动化抓取融合 |
+| [open.er-api.com](https://open.er-api.com) | USD → CNY 汇率 | 每日自动拉取（失败自动沿用历史汇率） |
+| `data/overrides.json` | 厂商官方人民币原价、DeepSeek 峰谷时段特殊定价 | 手动维护（自动与抓取模型融合） |
 
 ## 本地使用
 
@@ -39,4 +40,4 @@ python3 -m http.server 8000
 - 本地：运行 `node scripts/build-data.mjs` 并提交 `data/prices.json`；
 - 线上：提交 overrides 后在 Actions 手动触发一次工作流即可。
 
-litellm 侧的模型清单在 `scripts/build-data.mjs` 顶部的 `LITELLM_MODELS` 里维护（增删模型、调整候选 key）。
+构建脚本采用**智能自动抓取与动态模型发现机制**，厂商新发布的主流模型与计费阶梯无需手动维护即可自动捕获；若需指定特定模型或微调规则，可在 `scripts/build-data.mjs` 的 `VENDORS_CONFIG` 中配置。
