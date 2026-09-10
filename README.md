@@ -1,5 +1,7 @@
 # 模型价格行情 · LLM API Price Index
 
+> 🔗 **在线访问**：[https://imhw.github.io/llm-api-prices/](https://imhw.github.io/llm-api-prices/)
+
 主流旗舰大模型 API 价格对比看板。**人民币 / 百万 tokens**，每日自动更新，纯脚本实现，不依赖任何大模型 API。
 
 ## 数据来源
