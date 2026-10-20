@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-19T04:59:07.399Z",
+  "updatedAt": "2026-10-20T05:03:47.066Z",
   "fx": {
-    "rate": 6.69274,
-    "updatedAt": "Mon, 19 Oct 2026 00:02:32 +0000"
+    "rate": 6.693661,
+    "updatedAt": "Tue, 20 Oct 2026 00:02:32 +0000"
   },
   "unit": "CNY / 1M tokens",
   "sources": [
@@ -174,7 +174,7 @@
           "name": "GLM-5 Code",
           "cachedInput": 2.01,
           "input": 8.03,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "zai/glm-5-code"
         },
@@ -182,7 +182,7 @@
           "name": "GLM-4.7",
           "cachedInput": 0.74,
           "input": 4.02,
-          "output": 14.72,
+          "output": 14.73,
           "kind": "usd",
           "sourceKey": "zai/glm-4.7"
         },
@@ -190,7 +190,7 @@
           "name": "GLM-4.6",
           "cachedInput": 0.74,
           "input": 4.02,
-          "output": 14.72,
+          "output": 14.73,
           "kind": "usd",
           "sourceKey": "zai/glm-4.6"
         },
@@ -198,7 +198,7 @@
           "name": "GLM-4.5",
           "cachedInput": null,
           "input": 4.02,
-          "output": 14.72,
+          "output": 14.73,
           "kind": "usd",
           "sourceKey": "zai/glm-4.5"
         },
@@ -213,7 +213,7 @@
         {
           "name": "GLM-4.5 X",
           "cachedInput": null,
-          "input": 14.72,
+          "input": 14.73,
           "output": 59.57,
           "kind": "usd",
           "sourceKey": "zai/glm-4.5-x"
@@ -285,7 +285,7 @@
           "name": "Moonshot V1.128k",
           "cachedInput": null,
           "input": 13.39,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "moonshot/moonshot-v1-128k"
         },
@@ -309,7 +309,7 @@
           "name": "Moonshot V1 Auto",
           "cachedInput": null,
           "input": 13.39,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "moonshot/moonshot-v1-auto"
         }
@@ -380,7 +380,7 @@
           "name": "Qwen Max",
           "cachedInput": null,
           "input": 10.71,
-          "output": 42.83,
+          "output": 42.84,
           "kind": "usd",
           "sourceKey": "dashscope/qwen-max"
         },
@@ -556,7 +556,7 @@
           "name": "Grok 4.6 · >200k 输入",
           "cachedInput": 6.69,
           "input": 26.77,
-          "output": 80.31,
+          "output": 80.32,
           "kind": "usd",
           "sourceKey": "xai/grok-4.6"
         },
@@ -572,7 +572,7 @@
           "name": "Grok 4.5 · >200k 输入",
           "cachedInput": 4.02,
           "input": 26.77,
-          "output": 80.31,
+          "output": 80.32,
           "kind": "usd",
           "sourceKey": "xai/grok-4.5"
         },
@@ -588,15 +588,15 @@
           "name": "Grok 4.3 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.3"
         },
         {
           "name": "Grok 4.1 Fast",
           "cachedInput": null,
-          "input": 33.46,
-          "output": 167.32,
+          "input": 33.47,
+          "output": 167.34,
           "kind": "usd",
           "sourceKey": "oci/xai.grok-4.1-fast"
         },
@@ -620,7 +620,7 @@
           "name": "Grok 4.20 Multi Agent Beta 0309 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-multi-agent-beta-0309"
         },
@@ -636,7 +636,7 @@
           "name": "Grok 4.20 Beta 0309 Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta-0309-reasoning"
         },
@@ -652,7 +652,7 @@
           "name": "Grok 4.20.0309 Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-0309-reasoning"
         },
@@ -668,7 +668,7 @@
           "name": "Grok 4.20 Beta 0309 Non Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta-0309-non-reasoning"
         },
@@ -684,7 +684,7 @@
           "name": "Grok Build · >200k 输入",
           "cachedInput": 4.02,
           "input": 26.77,
-          "output": 80.31,
+          "output": 80.32,
           "kind": "usd",
           "sourceKey": "xai/grok-build-latest"
         },
@@ -700,7 +700,7 @@
           "name": "Grok 4.7 · >200k 输入",
           "cachedInput": 6.69,
           "input": 26.77,
-          "output": 80.31,
+          "output": 80.32,
           "kind": "usd",
           "sourceKey": "xai/grok-4.7"
         },
@@ -716,7 +716,7 @@
           "name": "Grok 4.20.0309 Non Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-0309-non-reasoning"
         },
@@ -732,7 +732,7 @@
           "name": "Grok 4.20 Multi Agent 0309 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-multi-agent-0309"
         },
@@ -764,7 +764,7 @@
           "name": "Grok 4.20 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20"
         },
@@ -780,7 +780,7 @@
           "name": "Grok 4.20 Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-reasoning"
         },
@@ -796,7 +796,7 @@
           "name": "Grok 4.20 Non Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-non-reasoning"
         },
@@ -812,7 +812,7 @@
           "name": "Grok 4.20 Multi Agent · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-multi-agent"
         },
@@ -828,7 +828,7 @@
           "name": "Grok 4.20.0309 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-0309"
         },
@@ -844,7 +844,7 @@
           "name": "Grok 4.20 Beta · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta"
         },
@@ -860,7 +860,7 @@
           "name": "Grok 4.20 Beta 0309 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta-0309"
         },
@@ -876,7 +876,7 @@
           "name": "Grok 4.20 Beta Latest Non Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta-latest-non-reasoning"
         },
@@ -892,7 +892,7 @@
           "name": "Grok 4.20 Beta Latest Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta-latest-reasoning"
         },
@@ -908,7 +908,7 @@
           "name": "Grok 4.20 Beta Non Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta-non-reasoning"
         },
@@ -924,7 +924,7 @@
           "name": "Grok 4.20 Beta Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-beta-reasoning"
         },
@@ -940,7 +940,7 @@
           "name": "Grok 4.20 Experimental Beta 0304 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-experimental-beta-0304"
         },
@@ -956,7 +956,7 @@
           "name": "Grok 4.20 Experimental Beta 0304 Non Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-experimental-beta-0304-non-reasoning"
         },
@@ -972,7 +972,7 @@
           "name": "Grok 4.20 Experimental Beta 0304 Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-experimental-beta-0304-reasoning"
         },
@@ -988,7 +988,7 @@
           "name": "Grok 4.20 Experimental Beta · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-experimental-beta-latest"
         },
@@ -1004,7 +1004,7 @@
           "name": "Grok 4.20 Experimental Beta Non Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-experimental-beta-non-reasoning-latest"
         },
@@ -1020,7 +1020,7 @@
           "name": "Grok 4.20 Experimental Beta Reasoning · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-experimental-beta-reasoning-latest"
         },
@@ -1036,7 +1036,7 @@
           "name": "Grok 4.20 Multi Agent Beta · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-multi-agent-beta-latest"
         },
@@ -1052,7 +1052,7 @@
           "name": "Grok 4.20 Multi Agent Experimental Beta 0304 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-multi-agent-experimental-beta-0304"
         },
@@ -1068,7 +1068,7 @@
           "name": "Grok 4.20 Multi Agent Experimental Beta · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-multi-agent-experimental-beta-latest"
         },
@@ -1084,7 +1084,7 @@
           "name": "Grok 4.20 Non Reasoning Gv2 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-non-reasoning-gv2"
         },
@@ -1100,7 +1100,7 @@
           "name": "Grok 4.20 Reasoning Gv2 · >200k 输入",
           "cachedInput": 2.68,
           "input": 16.73,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-reasoning-gv2"
         },
@@ -1163,16 +1163,16 @@
         {
           "name": "GPT-6 Astra · ≤272k 输入",
           "cachedInput": 6.69,
-          "input": 66.93,
-          "output": 334.64,
+          "input": 66.94,
+          "output": 334.68,
           "kind": "usd",
           "sourceKey": "gpt-6-astra"
         },
         {
           "name": "GPT-6 Astra · >272k 输入",
           "cachedInput": 13.39,
-          "input": 133.85,
-          "output": 501.96,
+          "input": 133.87,
+          "output": 502.02,
           "kind": "usd",
           "sourceKey": "gpt-6-astra"
         },
@@ -1180,15 +1180,15 @@
           "name": "GPT-5.6 Sol · ≤272k 输入",
           "cachedInput": 2.68,
           "input": 26.77,
-          "output": 133.85,
+          "output": 133.87,
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
         },
         {
           "name": "GPT-5.6 Sol · >272k 输入",
           "cachedInput": 5.35,
-          "input": 53.54,
-          "output": 200.78,
+          "input": 53.55,
+          "output": 200.81,
           "kind": "usd",
           "sourceKey": "gpt-5.6-sol"
         },
@@ -1211,16 +1211,16 @@
         {
           "name": "GPT-5.5 · ≤272k 输入",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 200.78,
+          "input": 33.47,
+          "output": 200.81,
           "kind": "usd",
           "sourceKey": "gpt-5.5"
         },
         {
           "name": "GPT-5.5 · >272k 输入",
           "cachedInput": 6.69,
-          "input": 66.93,
-          "output": 301.17,
+          "input": 66.94,
+          "output": 301.21,
           "kind": "usd",
           "sourceKey": "gpt-5.5"
         },
@@ -1236,7 +1236,7 @@
           "name": "o3",
           "cachedInput": 3.35,
           "input": 13.39,
-          "output": 53.54,
+          "output": 53.55,
           "kind": "usd",
           "sourceKey": "o3"
         },
@@ -1252,7 +1252,7 @@
           "name": "GPT-4o",
           "cachedInput": 8.37,
           "input": 16.73,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "gpt-4o"
         },
@@ -1267,16 +1267,16 @@
         {
           "name": "GPT-4",
           "cachedInput": null,
-          "input": 200.78,
-          "output": 401.56,
+          "input": 200.81,
+          "output": 401.62,
           "kind": "usd",
           "sourceKey": "gpt-4"
         },
         {
           "name": "GPT-4 Turbo",
           "cachedInput": null,
-          "input": 66.93,
-          "output": 200.78,
+          "input": 66.94,
+          "output": 200.81,
           "kind": "usd",
           "sourceKey": "gpt-4-turbo"
         },
@@ -1284,7 +1284,7 @@
           "name": "GPT-4.1",
           "cachedInput": 3.35,
           "input": 13.39,
-          "output": 53.54,
+          "output": 53.55,
           "kind": "usd",
           "sourceKey": "gpt-4.1"
         },
@@ -1308,7 +1308,7 @@
           "name": "GPT-5",
           "cachedInput": 0.84,
           "input": 8.37,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "gpt-5"
         },
@@ -1316,7 +1316,7 @@
           "name": "GPT-5.1",
           "cachedInput": 0.84,
           "input": 8.37,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "gpt-5.1"
         },
@@ -1324,15 +1324,15 @@
           "name": "GPT-5.2",
           "cachedInput": 1.17,
           "input": 11.71,
-          "output": 93.7,
+          "output": 93.71,
           "kind": "usd",
           "sourceKey": "gpt-5.2"
         },
         {
           "name": "GPT-5.2 Pro",
           "cachedInput": null,
-          "input": 140.55,
-          "output": 1124.38,
+          "input": 140.57,
+          "output": 1124.54,
           "kind": "usd",
           "sourceKey": "gpt-5.2-pro"
         },
@@ -1340,7 +1340,7 @@
           "name": "GPT-6 Sol · ≤272k 输入",
           "cachedInput": 1.34,
           "input": 13.39,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "gpt-6-sol"
         },
@@ -1348,7 +1348,7 @@
           "name": "GPT-6 Sol · >272k 输入",
           "cachedInput": 2.68,
           "input": 26.77,
-          "output": 100.39,
+          "output": 100.4,
           "kind": "usd",
           "sourceKey": "gpt-6-sol"
         },
@@ -1372,15 +1372,15 @@
           "name": "GPT-5.6 · ≤272k 输入",
           "cachedInput": 2.68,
           "input": 26.77,
-          "output": 133.85,
+          "output": 133.87,
           "kind": "usd",
           "sourceKey": "gpt-5.6"
         },
         {
           "name": "GPT-5.6 · >272k 输入",
           "cachedInput": 5.35,
-          "input": 53.54,
-          "output": 200.78,
+          "input": 53.55,
+          "output": 200.81,
           "kind": "usd",
           "sourceKey": "gpt-5.6"
         },
@@ -1388,7 +1388,7 @@
           "name": "GPT-5.6 Terra · ≤272k 输入",
           "cachedInput": 1.34,
           "input": 13.39,
-          "output": 80.31,
+          "output": 80.32,
           "kind": "usd",
           "sourceKey": "gpt-5.6-terra"
         },
@@ -1396,39 +1396,39 @@
           "name": "GPT-5.6 Terra · >272k 输入",
           "cachedInput": 2.68,
           "input": 26.77,
-          "output": 120.47,
+          "output": 120.49,
           "kind": "usd",
           "sourceKey": "gpt-5.6-terra"
         },
         {
           "name": "GPT-5.6 Cyber · ≤272k 输入",
           "cachedInput": 8.37,
-          "input": 83.66,
-          "output": 501.96,
+          "input": 83.67,
+          "output": 502.02,
           "kind": "usd",
           "sourceKey": "gpt-5.6-cyber"
         },
         {
           "name": "GPT-5.6 Cyber · >272k 输入",
           "cachedInput": 16.73,
-          "input": 167.32,
-          "output": 752.93,
+          "input": 167.34,
+          "output": 753.04,
           "kind": "usd",
           "sourceKey": "gpt-5.6-cyber"
         },
         {
           "name": "GPT Daybreak Red · ≤272k 输入",
           "cachedInput": 8.37,
-          "input": 83.66,
-          "output": 501.96,
+          "input": 83.67,
+          "output": 502.02,
           "kind": "usd",
           "sourceKey": "gpt-daybreak-red-latest"
         },
         {
           "name": "GPT Daybreak Red · >272k 输入",
           "cachedInput": 16.73,
-          "input": 167.32,
-          "output": 752.93,
+          "input": 167.34,
+          "output": 753.04,
           "kind": "usd",
           "sourceKey": "gpt-daybreak-red-latest"
         },
@@ -1436,31 +1436,31 @@
           "name": "GPT Daybreak Blue · ≤272k 输入",
           "cachedInput": 2.68,
           "input": 26.77,
-          "output": 133.85,
+          "output": 133.87,
           "kind": "usd",
           "sourceKey": "gpt-daybreak-blue-latest"
         },
         {
           "name": "GPT Daybreak Blue · >272k 输入",
           "cachedInput": 5.35,
-          "input": 53.54,
-          "output": 200.78,
+          "input": 53.55,
+          "output": 200.81,
           "kind": "usd",
           "sourceKey": "gpt-daybreak-blue-latest"
         },
         {
           "name": "GPT-5.5 Pro · ≤272k 输入",
           "cachedInput": null,
-          "input": 200.78,
-          "output": 1204.69,
+          "input": 200.81,
+          "output": 1204.86,
           "kind": "usd",
           "sourceKey": "gpt-5.5-pro"
         },
         {
           "name": "GPT-5.5 Pro · >272k 输入",
           "cachedInput": null,
-          "input": 401.56,
-          "output": 1807.04,
+          "input": 401.62,
+          "output": 1807.29,
           "kind": "usd",
           "sourceKey": "gpt-5.5-pro"
         },
@@ -1468,31 +1468,31 @@
           "name": "GPT-5.4 · ≤272k 输入",
           "cachedInput": 1.67,
           "input": 16.73,
-          "output": 100.39,
+          "output": 100.4,
           "kind": "usd",
           "sourceKey": "gpt-5.4"
         },
         {
           "name": "GPT-5.4 · >272k 输入",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 150.59,
+          "input": 33.47,
+          "output": 150.61,
           "kind": "usd",
           "sourceKey": "gpt-5.4"
         },
         {
           "name": "GPT-5.4 Pro · ≤272k 输入",
           "cachedInput": null,
-          "input": 200.78,
-          "output": 1204.69,
+          "input": 200.81,
+          "output": 1204.86,
           "kind": "usd",
           "sourceKey": "gpt-5.4-pro"
         },
         {
           "name": "GPT-5.4 Pro · >272k 输入",
           "cachedInput": null,
-          "input": 401.56,
-          "output": 1807.04,
+          "input": 401.62,
+          "output": 1807.29,
           "kind": "usd",
           "sourceKey": "gpt-5.4-pro"
         },
@@ -1507,8 +1507,8 @@
         {
           "name": "GPT-5 Pro",
           "cachedInput": null,
-          "input": 100.39,
-          "output": 803.13,
+          "input": 100.4,
+          "output": 803.24,
           "kind": "usd",
           "sourceKey": "gpt-5-pro"
         },
@@ -1516,7 +1516,7 @@
           "name": "GPT-5.3 Codex",
           "cachedInput": 1.17,
           "input": 11.71,
-          "output": 93.7,
+          "output": 93.71,
           "kind": "usd",
           "sourceKey": "gpt-5.3-codex"
         },
@@ -1539,16 +1539,16 @@
         {
           "name": "o1",
           "cachedInput": 50.2,
-          "input": 100.39,
-          "output": 401.56,
+          "input": 100.4,
+          "output": 401.62,
           "kind": "usd",
           "sourceKey": "o1"
         },
         {
           "name": "o1 Pro",
           "cachedInput": null,
-          "input": 1003.91,
-          "output": 4015.64,
+          "input": 1004.05,
+          "output": 4016.2,
           "kind": "usd",
           "sourceKey": "o1-pro"
         },
@@ -1563,8 +1563,8 @@
         {
           "name": "o3 Pro",
           "cachedInput": null,
-          "input": 133.85,
-          "output": 535.42,
+          "input": 133.87,
+          "output": 535.49,
           "kind": "usd",
           "sourceKey": "o3-pro"
         },
@@ -1579,16 +1579,16 @@
         {
           "name": "GPT-5.5 Cyber",
           "cachedInput": 8.37,
-          "input": 83.66,
-          "output": 501.96,
+          "input": 83.67,
+          "output": 502.02,
           "kind": "usd",
           "sourceKey": "gpt-5.5-cyber"
         },
         {
           "name": "GPT Rosalind Research",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 167.32,
+          "input": 33.47,
+          "output": 167.34,
           "kind": "usd",
           "sourceKey": "gpt-rosalind-research"
         },
@@ -1596,7 +1596,7 @@
           "name": "GPT-6.1 Sol · ≤272k 输入",
           "cachedInput": 0.67,
           "input": 13.39,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "gpt-6.1-sol"
         },
@@ -1604,15 +1604,15 @@
           "name": "GPT-6.1 Sol · >272k 输入",
           "cachedInput": 1.34,
           "input": 26.77,
-          "output": 100.39,
+          "output": 100.4,
           "kind": "usd",
           "sourceKey": "gpt-6.1-sol"
         },
         {
           "name": "GPT Rosalind Discovery",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 167.32,
+          "input": 33.47,
+          "output": 167.34,
           "kind": "usd",
           "sourceKey": "gpt-rosalind-discovery"
         }
@@ -1627,16 +1627,16 @@
         {
           "name": "Claude Mythos 5",
           "cachedInput": 6.69,
-          "input": 66.93,
-          "output": 334.64,
+          "input": 66.94,
+          "output": 334.68,
           "kind": "usd",
           "sourceKey": "claude-mythos-5"
         },
         {
           "name": "Claude Fable 5.1",
           "cachedInput": 1.67,
-          "input": 66.93,
-          "output": 334.64,
+          "input": 66.94,
+          "output": 334.68,
           "kind": "usd",
           "sourceKey": "claude-fable-5-1"
         },
@@ -1644,7 +1644,7 @@
           "name": "Claude Opus 5",
           "cachedInput": 1.34,
           "input": 26.77,
-          "output": 133.85,
+          "output": 133.87,
           "kind": "usd",
           "sourceKey": "claude-opus-5-5"
         },
@@ -1652,15 +1652,15 @@
           "name": "Claude Sonnet 5",
           "cachedInput": 1.34,
           "input": 13.39,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "claude-sonnet-5"
         },
         {
           "name": "Claude 3.7 Sonnet",
           "cachedInput": 2.41,
-          "input": 24.09,
-          "output": 120.47,
+          "input": 24.1,
+          "output": 120.49,
           "kind": "usd",
           "sourceKey": "anthropic.claude-3-7-sonnet-20240620-v1:0"
         },
@@ -1668,7 +1668,7 @@
           "name": "Claude Haiku 4.5",
           "cachedInput": 0.67,
           "input": 6.69,
-          "output": 33.46,
+          "output": 33.47,
           "kind": "usd",
           "sourceKey": "claude-haiku-4-5-20251001"
         },
@@ -1676,7 +1676,7 @@
           "name": "Claude Sonnet 4.5",
           "cachedInput": 2.01,
           "input": 20.08,
-          "output": 100.39,
+          "output": 100.4,
           "kind": "usd",
           "sourceKey": "claude-sonnet-4-5"
         },
@@ -1684,7 +1684,7 @@
           "name": "Claude Sonnet 5.5",
           "cachedInput": 0.67,
           "input": 13.39,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "claude-sonnet-5-5"
         },
@@ -1692,39 +1692,39 @@
           "name": "Claude Sonnet 4.6",
           "cachedInput": 2.01,
           "input": 20.08,
-          "output": 100.39,
+          "output": 100.4,
           "kind": "usd",
           "sourceKey": "claude-sonnet-4-6"
         },
         {
           "name": "Claude Opus 4.5",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 167.32,
+          "input": 33.47,
+          "output": 167.34,
           "kind": "usd",
           "sourceKey": "claude-opus-4-5"
         },
         {
           "name": "Claude Opus 4.6",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 167.32,
+          "input": 33.47,
+          "output": 167.34,
           "kind": "usd",
           "sourceKey": "claude-opus-4-6"
         },
         {
           "name": "Claude Opus 4.7",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 167.32,
+          "input": 33.47,
+          "output": 167.34,
           "kind": "usd",
           "sourceKey": "claude-opus-4-7"
         },
         {
           "name": "Claude Fable 5",
           "cachedInput": 6.69,
-          "input": 66.93,
-          "output": 334.64,
+          "input": 66.94,
+          "output": 334.68,
           "kind": "usd",
           "sourceKey": "claude-fable-5"
         },
@@ -1732,23 +1732,23 @@
           "name": "Claude Opus 5.5",
           "cachedInput": 1.34,
           "input": 26.77,
-          "output": 133.85,
+          "output": 133.87,
           "kind": "usd",
           "sourceKey": "claude-opus-5-5"
         },
         {
           "name": "Claude Opus 4.8",
           "cachedInput": 3.35,
-          "input": 33.46,
-          "output": 167.32,
+          "input": 33.47,
+          "output": 167.34,
           "kind": "usd",
           "sourceKey": "claude-opus-4-8"
         },
         {
           "name": "Claude Mythos 5.1",
           "cachedInput": 1.67,
-          "input": 66.93,
-          "output": 334.64,
+          "input": 66.94,
+          "output": 334.68,
           "kind": "usd",
           "sourceKey": "claude-mythos-5-1"
         },
@@ -1788,7 +1788,7 @@
           "name": "Gemini 3.1 Pro · ≤200k 输入",
           "cachedInput": 1.34,
           "input": 13.39,
-          "output": 80.31,
+          "output": 80.32,
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
         },
@@ -1796,7 +1796,7 @@
           "name": "Gemini 3.1 Pro · >200k 输入",
           "cachedInput": 2.68,
           "input": 26.77,
-          "output": 120.47,
+          "output": 120.49,
           "kind": "usd",
           "sourceKey": "gemini-3.1-pro-preview"
         },
@@ -1812,7 +1812,7 @@
           "name": "Gemini 2.5 Pro · ≤200k 输入",
           "cachedInput": 0.84,
           "input": 8.37,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "gemini-2.5-pro"
         },
@@ -1820,7 +1820,7 @@
           "name": "Gemini 2.5 Pro · >200k 输入",
           "cachedInput": 1.67,
           "input": 16.73,
-          "output": 100.39,
+          "output": 100.4,
           "kind": "usd",
           "sourceKey": "gemini-2.5-pro"
         },
@@ -1841,18 +1841,10 @@
           "sourceKey": "gemini-3.5-flash-lite"
         },
         {
-          "name": "Gemini 2.5 Flash-Lite",
-          "cachedInput": 0.07,
-          "input": 0.67,
-          "output": 2.68,
-          "kind": "usd",
-          "sourceKey": "gemini-2.5-flash-lite"
-        },
-        {
           "name": "Gemini 2.5 Computer Use Preview 10.2025 · ≤200k 输入",
           "cachedInput": null,
           "input": 8.37,
-          "output": 66.93,
+          "output": 66.94,
           "kind": "usd",
           "sourceKey": "gemini-2.5-computer-use-preview-10-2025"
         },
@@ -1860,7 +1852,7 @@
           "name": "Gemini 2.5 Computer Use Preview 10.2025 · >200k 输入",
           "cachedInput": null,
           "input": 16.73,
-          "output": 100.39,
+          "output": 100.4,
           "kind": "usd",
           "sourceKey": "gemini-2.5-computer-use-preview-10-2025"
         },
@@ -1876,7 +1868,7 @@
           "name": "Gemini Omni Flash",
           "cachedInput": null,
           "input": 10.04,
-          "output": 60.23,
+          "output": 60.24,
           "kind": "usd",
           "sourceKey": "gemini-omni-flash-preview"
         },
@@ -1884,7 +1876,7 @@
           "name": "Gemini 3.5 Flash",
           "cachedInput": 1,
           "input": 10.04,
-          "output": 60.23,
+          "output": 60.24,
           "kind": "usd",
           "sourceKey": "gemini-3.5-flash"
         },
@@ -1948,7 +1940,7 @@
           "name": "Gemini Pro · ≤200k 输入",
           "cachedInput": 1.34,
           "input": 13.39,
-          "output": 80.31,
+          "output": 80.32,
           "kind": "usd",
           "sourceKey": "gemini-pro-latest"
         },
@@ -1956,7 +1948,7 @@
           "name": "Gemini Pro · >200k 输入",
           "cachedInput": 2.68,
           "input": 26.77,
-          "output": 120.47,
+          "output": 120.49,
           "kind": "usd",
           "sourceKey": "gemini-pro-latest"
         },
