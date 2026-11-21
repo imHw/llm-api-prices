@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T07:33:14.991Z",
+  "updatedAt": "2026-11-21T07:29:46.053Z",
   "fx": {
     "rate": 6.69198,
     "updatedAt": "Fri, 20 Nov 2026 00:02:32 +0000"
@@ -743,22 +743,6 @@
           "output": 33.46,
           "kind": "usd",
           "sourceKey": "xai/grok-4.20-multi-agent-0309"
-        },
-        {
-          "name": "Grok Build 0.1 · ≤200k 输入",
-          "cachedInput": 1.34,
-          "input": 6.69,
-          "output": 13.38,
-          "kind": "usd",
-          "sourceKey": "xai/grok-build-0.1"
-        },
-        {
-          "name": "Grok Build 0.1 · >200k 输入",
-          "cachedInput": 2.68,
-          "input": 13.38,
-          "output": 26.77,
-          "kind": "usd",
-          "sourceKey": "xai/grok-build-0.1"
         },
         {
           "name": "Grok 4.20 · ≤200k 输入",
